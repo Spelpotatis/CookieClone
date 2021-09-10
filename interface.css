@@ -1,0 +1,24 @@
+body{
+	user-select: none;
+}
+
+#cookieButton{
+	background-color: red;
+	width: fit-content;
+	padding: 6px;
+	border-radius: 6px;
+}
+
+#cursorButton{
+	background-color: green;
+	width: fit-content;
+	padding: 6px;
+	border-radius: 6px;
+}
+
+#hardR{
+	background-color: yellow;
+	width: fit-content;
+	padding: 6px;
+	border-radius: 6px;
+}
