@@ -2,7 +2,7 @@ body{
 	user-select: none;
 }
 
-#cookieButton{
+#moneyButton{
 	background-color: red;
 	width: fit-content;
 	padding: 6px;
@@ -10,6 +10,13 @@ body{
 }
 
 #cursorButton{
+	background-color: green;
+	width: fit-content;
+	padding: 6px;
+	border-radius: 6px;
+}
+
+#paperButton{
 	background-color: green;
 	width: fit-content;
 	padding: 6px;
