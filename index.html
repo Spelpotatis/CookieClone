@@ -5,19 +5,25 @@
 		<script type="text/javascript" src="main.js"></script>
 	</head>
 	<body>
-		<div onClick="cookieClick(1)" id="cookieButton">Click me!</div>
-		<span id="cookies">0</span>
+		<div onClick="moneyClick(1)" id="moneyButton">Click me!</div>
+		<span id="money">0</span>
 		<br />
 		<div onClick="buyCursor()" id="cursorButton">Buy Cursor</div>
-		<div>
-			Cursors: <span id="cursors">0</span><br />
-			Cost: <span id="cursorCost">3</span>
-		</div>
+			<div>
+				Cursors: <span id="cursors">0</span><br />
+				Cost: <span id="cursorCost">3</span>
+			</div>
+		<div onClick="buyPaper()" id="paperButton">Buy Paper</div>
+			<div>
+				Paper: <span id="papers">0</span><br />
+				Cost: <span id="paperCost">250</span>
+			</div>
 		<div onClick="deleteSave()" id="hardR">Hard reset</div>
 		<br />
 		<div>
 			Changelog: <br />
-			0.0.1: Released game
+			0.0.1: Released game <br />
+			0.0.2: Added papers
 		</div>
 	</body>
 </html>
