@@ -27,6 +27,7 @@ save();
 
 
 function moneyClick(number){
+	save();
 	money += number;
 	document.getElementById("money").innerHTML = money;
 };
@@ -83,5 +84,4 @@ function deleteSave(){
 	localStorage.removeItem("save");
 	window.location.reload(true);
 }
-
 
